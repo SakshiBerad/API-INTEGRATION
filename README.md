@@ -36,6 +36,7 @@ This project is a responsive webpage that fetches and displays real-time weather
    ```bash
    git clone https://github.com/sakshiberad/weather-app.git
    cd weather-app
+   open all files in vs code and run
 ## webpage will open in your browser on something like:
 http://127.0.0.1:5500/index.html
 
