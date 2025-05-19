@@ -44,6 +44,26 @@ http://127.0.0.1:5500/index.html
 Enter a city name like London or New York.
 
 Click the “Get Weather” button.
+How to Get an API Key from OpenWeatherMap
+
+1. **Go to the Website:**
+   - Visit [https://openweathermap.org/api](https://openweathermap.org/api)
+
+2. **Sign Up / Log In:**
+   - Click “**Sign Up**” in the top right corner if you don’t already have an account.
+   - If you already have one, just **log in**.
+
+3. **Generate an API Key:**
+   - After logging in, go to your **profile** by clicking your name/avatar.
+   - Click on the "**API keys**" tab.
+   - You’ll see a **default key** or an option to **create a new key**.
+     - Name your key (e.g., “WeatherApp”) and click **Generate**.
+
+4. **Copy Your API Key:**
+   - Copy the generated key.
+   - You’ll paste this into your JavaScript code where it says:
+     ```javascript
+     const apiKey = 'YOUR_API_KEY';
 
 You should see live weather info!
 
